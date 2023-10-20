@@ -1,0 +1,115 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  *{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .main-content{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 40px;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px, 1px, 15px, 1px white;
+    transition: 0.4s
+  }
+  .main-content:hover{
+    transform: scale(1.05);
+  }
+
+  .nav{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;  
+  }
+
+  .nav i{
+    margin-right: 30px;
+    font-size: 23px;
+  }
+
+  .line{
+    height: 2px;
+    background-color: white;
+    margin-top: 13px;
+    opacity: 0.7;
+  }
+
+  .main-box, .box1 {
+    background-color: transparent;
+    height: 238px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .main-box{
+    width: 500px;
+  }
+  
+ 
+  .box1 img{
+    height: 90px;
+    border-radius: 80px; 
+    margin-top: 55px;
+    margin-top: 55px;
+    margin-top: 55px;
+  }
+
+  .box2{
+    margin-top: 25px;
+  }
+
+  .box2 a{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .box2 ul{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .icon{
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .icon i{
+    font-size: 23px;
+    color: white;
+    padding-right: 8px;
+  }
+
+  .icon i:hover{
+    color: rgb(90, 88, 88)
+  }
